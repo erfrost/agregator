@@ -1,0 +1,29 @@
+.logo-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 230px;
+    height: 95px;
+}
+.logo-text {
+    font-size: 28px;
+    font-weight: 600;
+}
+.city-filter {
+    font-size: 24px;
+    font-weight: 500;
+    color: #91aab8;
+    margin-top: 15px;
+}
+.city {
+    color: rgb(253, 165, 0);
+    cursor: pointer;
+}
+.arrow-down {
+    margin-bottom: -5px;
+    margin-left: -4px;
+}

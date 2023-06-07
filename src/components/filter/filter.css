@@ -1,0 +1,59 @@
+.filter-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.filter-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.filter-btn {
+    width: 150px !important;
+    height: 56px !important;
+    font-family: "VK Sans Display" !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 10px !important;
+    background-color: rgb(253, 165, 0) !important;
+    box-shadow: none !important; 
+    transition: all 0.4s !important;
+}
+.filter-btn:hover {
+    background-color: rgb(255, 185, 55) !important;
+}
+.textField {
+    width: 100%;
+}
+.textField div::before {
+    border-bottom: none !important;
+}
+.textField div {
+    background-color: rgb(249, 249, 249) !important;
+    border-radius: 10px !important;
+    transition: none !important;
+}
+.textField div::after {
+    border-bottom: red !important;
+}
+.textField label {
+    font-family: 'VK Sans Display' !important;
+    cursor: text !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+.textField div input {
+    border-radius: 10px !important;
+    background-color: rgb(249, 249, 249) !important;
+    font-family: 'VK Sans Display' !important;
+}
+.MuiFormLabel-root.Mui-focused {
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-family: 'VK Sans Display' !important;
+}

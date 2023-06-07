@@ -1,0 +1,108 @@
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title-content {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+.title-btn {
+    width: 150px !important;
+    height: 40px !important;
+    font-family: "VK Sans Display" !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 10px !important;
+    color: black !important;
+    background-color: rgb(249, 249, 249) !important;
+    box-shadow: none !important; 
+    transition: all 0.4s !important;
+}
+.title-btn:hover {
+    background-color: rgb(239, 239, 239) !important;
+}
+.arrow-items {
+    width: 15px !important;
+    margin-left: 7px;
+}
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items:hover .scroll-btn {
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    color: rgba(0, 0, 0, 0.3) !important;
+}
+.items-content {
+    min-width: 90%;
+    width: 100%;
+    padding-right: 42px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.item-previev {
+    min-width: 194px;
+    height: 166px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.itemPhoto {
+    width: 100%;
+    height: 40%;
+}
+.item-info {
+    font-size: 12px;
+    color: #91aab8;
+    max-width: 100%;
+    width: 200px;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+.scroll-btn {
+    min-width: 45px !important;
+    max-width: 45px;
+    height: 45px;
+    border-radius: 45% !important; 
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    color: rgba(0, 0, 0, 0) !important;
+    transition: all 0.3s ease-in-out;
+}
+.scroll-btn:hover {
+    background-color: rgba(0, 0, 0, 0.03) !important;
+}
+.scroll-btn-left {
+    position: relative !important;
+    top: 0;
+    left: 7%;
+}
+.scroll-btn-right {
+    position: relative !important;
+    top: 0px;
+    right: 7%;
+}
+.limit {
+    opacity: 0;
+    cursor: default !important;
+}
